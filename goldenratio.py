@@ -1,4 +1,4 @@
-def get_golden_ratio(num):
+def getGoldenRatio(num):
     list_fibo = sorted(get_fibo_num(num), reverse=True)
     sum = 0
     for i in range(len(list_fibo)):
