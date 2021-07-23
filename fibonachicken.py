@@ -6,7 +6,7 @@ def FibonacciSequence(n):
         F.append(F[i - 1] + F[i - 2])
     return F
 
-n = 30
+n = 50
 F = FibonacciSequence(n)
 for i in range(1, len(F) - 1):
     print(i, ":", F[i], F[i+1]/F[i], F[i]/F[i+1])
